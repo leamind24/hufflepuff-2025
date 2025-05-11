@@ -2,14 +2,15 @@
   box-sizing: border-box;
 }
 
-body {background-color:#000;
+body {
+	background-color: #000;
 	background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png");
-	background-color:#000;
 	background-position: center center;
 	background-attachment: fixed;
 	padding: 0;
 	margin: 0;
 	background-repeat: no-repeat;
+	font-family: 'Patrick Hand', cursive;
 }
 
 .app {
