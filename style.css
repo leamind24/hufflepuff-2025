@@ -16,10 +16,12 @@ body {
 .app {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: end;
 	gap: 20px;
 	height: 95vh;
-	justify-content: end;
-	min-height: calc(238px + 282px)
+	min-height: calc(238px + 282px);
+	text-align: center;
 }
 .title {
 	padding: 0;
@@ -47,16 +49,17 @@ body {
 }
 
 
-.button {background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
-	background-color: #12345600;
-	width: 100vw;
-	height: calc(100vw * 238 / 300);
-	background-size: 100vw 238px;
+.button {
+	background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
+	background-color: transparent;
+	width: 300px;
+	height: 238px;
+	background-size: cover;
 	border: none;
-	min-height: 238px;
 	transition: background 0.3s ease;
+	display: block;
+	margin: 0 auto;
 }
-
 @media (min-width: 300px) {
 	.button {
 		margin: 0 0 0 calc(100vw - 300px);
