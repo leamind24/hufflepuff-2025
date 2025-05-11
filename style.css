@@ -26,10 +26,10 @@ body {background-color:#000;
 	font-family: Marck+Script;
 }
 
-.forecast {background-image: url("https://i.postimg.cc/057rpC7d/image.png");
+.forecast {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: right;
+	justify-content: right;
 	flex-direction: column;
 	padding: 0 70px 70px;
 	color: black;
