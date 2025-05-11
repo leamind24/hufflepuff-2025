@@ -23,7 +23,7 @@ body {background-color:#000;
 .title {
 	padding: 0;
 	margin: 0;
-	font-family: sans-serif;
+	font-family: Marck+Script;
 }
 
 .forecast {background-image: url("https://i.postimg.cc/057rpC7d/image.png");
@@ -33,7 +33,7 @@ body {background-color:#000;
 	flex-direction: column;
 	padding: 0 30px 30px;
 	color: black;
-	font-family: monospace;
+	font-family: Marck+Script;
 	font-size: 14px;
 	line-height: 140%;
 	text-align: center;
