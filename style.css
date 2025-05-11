@@ -31,9 +31,9 @@ body {background-color:#000;
 	align-items: right;
 	justify-content: right;
 	flex-direction: column;
-	padding: 0 70px 70px;
+	padding: 0 260px 150px;
 	color: black;
-	font-family: Marck+Script;
+	font-family: Marck-Script;
 	font-size: 14px;
 	line-height: 140%;
 	text-align: right;
@@ -50,9 +50,9 @@ body {background-color:#000;
 	background-color: #12345600;
 	width: 373vw;
 	height: 459vw;
-	background-size: 100vw 238px;
+	background-size: 373vw 459px;
 	border: none;
-	min-height: 238px;
+	min-height: 373px;
 	transition: background 0.3s ease;
 }
 
