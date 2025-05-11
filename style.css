@@ -48,8 +48,8 @@ body {background-color:#000;
 
 .button {background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
 	background-color: #12345600;
-	width: 100vw;
-	height: calc(100vw * 238 / 300);
+	width: 373vw;
+	height: 459vw;
 	background-size: 100vw 238px;
 	border: none;
 	min-height: 238px;
