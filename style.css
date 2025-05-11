@@ -27,21 +27,20 @@ body {background-color:#000;
 }
 
 .forecast {
-	display: flex;
-	align-items: flex-end;
-	justify-content: flex-end;
-	flex-direction: column;
-	padding: 0 100px 50px 0;
-	color: black;
-	font-family: 'Marck Script', cursive;
-	font-size: 16px;
-	line-height: 140%;
-	text-align: right;
-	margin: 0 auto;
-	width: 90vw;
-	max-width: 400px;
-	height: auto;
-	background-size: contain;
+  position: absolute;
+  top: 54%; 
+  left: 75%; 
+  transform: translate(-50%, -50%);
+  width: 260px;
+  height: auto;
+  color: black;
+  font-family: 'Marck Script', cursive;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  pointer-events: none;
+}
+
 
 
 .button {background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
