@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {background-color:#000;
+	background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png");
+	background-color:#000;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	height: 95vh;
+	justify-content: end;
+	min-height: calc(238px + 282px)
+}
+.title {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.forecast {background-image: url("https://i.postimg.cc/057rpC7d/image.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 30px 30px;
+	color: black;
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: center;
+	margin: 0;
+	width: 100vw;
+	height: calc(100vw * 282 / 400);
+	background-size: 100vw 282px;
+	min-height: 282px;
+	margin: 0;
+}
+
+
+.button {background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
+	background-color: #12345600;
+	width: 100vw;
+	height: calc(100vw * 238 / 300);
+	background-size: 100vw 238px;
+	border: none;
+	min-height: 238px;
+	transition: background 0.3s ease;
+}
+
+@media (min-width: 300px) {
+	.button {
+		margin: 0 0 0 calc(100vw - 300px);
+		min-height: 238px;
+		height: 238px;
+		width: 300px;
+		background-size: 300px 238px;
+	}
+}
+
+@media (min-width: 360px) {
+	.button {
+		margin: 0 0 0 20vw;	
+	}
+}
+
+@media (min-width: 400px) {
+    .forecast {
+		margin: 0 0 0 calc(100vw - 400px);
+		min-height: 282px;
+		height: 282px;
+		width: 400px;
+		font-size: 20px;
+		background-size: 400px 282px;
+    }
+}
+
+@media (min-width: 480px) {
+    .forecast {
+		margin: 0 0 0 20vw;		
+    }
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+footer {
+	margin: 0;
+    padding: 0;
+	min-height: 35px;
+    height: 5vh;
+	width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+	background-color: #160b11;
+    background-image: linear-gradient(to bottom, #160b11 0%, #3d244c 100%);
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.button_2 {
+    height: 5vh;
+	width: 150px;
+	min-height: 35px;
+    background-color: #201C42;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
