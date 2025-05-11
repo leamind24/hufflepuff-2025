@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 
-body {background-color:#000;
+body {background-color:#F0EFF4;
 	background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png");
-	background-color:#000;
+	background-color:#F0EFF4;
 	background-position: center center;
 	background-attachment: fixed;
 	padding: 0;
@@ -28,8 +28,8 @@ body {background-color:#000;
 
 .forecast {
   position: absolute;
-  top: 80%; 
-  left: 75%; 
+  top: 75%; 
+  left: 55%; 
   transform: translate(-50%, -50%);
   width: 260px;
   height: auto;
