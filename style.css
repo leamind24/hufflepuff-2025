@@ -1,52 +1,46 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png"); /* твоя картинка */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  font-family: 'Georgia', serif;
-}
-
 .layout {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 40px;
+  padding: 40px;
+  background-image: url('https://i.postimg.cc/mgmPP2Cv/image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
-  gap: 50px;
-  position: relative;
+  box-sizing: border-box;
 }
 
 .box-left, .box-right {
-  width: 320px;
-  height: 400px;
+  width: 300px;
+  height: 360px;
   position: relative;
 }
 
 .button {
   position: absolute;
-  top: 65%; /* подгоняется под макет */
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: transparent;
-  color: #FFD700;
   border: none;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
-  font-family: 'Patrick Hand', cursive;
+  color: gold;
   cursor: pointer;
+  font-family: sans-serif;
   text-align: center;
 }
 
 .card-text {
   position: absolute;
-  top: 20%; /* регулируй по макету */
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   width: 80%;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
   text-align: center;
-  color: black;
-  font-size: 18px;
-  line-height: 1.4;
+  color: #000;
 }
