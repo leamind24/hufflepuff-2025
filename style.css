@@ -36,12 +36,12 @@ body {background-color:#000;
 	font-family: Marck+Script;
 	font-size: 14px;
 	line-height: 140%;
-	text-align: center;
+	text-align: right;
 	margin: 0;
 	width: 373vw;
 	height: 459vw;
-	background-size: 100vw 282px;
-	min-height: 282px;
+	background-size: 379vw 459px;
+	min-height: 459px;
 	margin: 0;
 }
 
