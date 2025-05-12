@@ -37,13 +37,12 @@ body {
 
 .forecast {
   position: absolute;
-  top: 65%; 
-  left: 50%; 
+  top: 65%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 260px;
   height: auto;
   color: black;
-  font-family: 'Marck Script', cursive;
   font-size: 18px;
   line-height: 140%;
   text-align: center;
