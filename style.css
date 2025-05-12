@@ -1,82 +1,39 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F0EFF4;
-  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png");
-  background-position: center center;
-  background-attachment: fixed;
-  padding: 0;
-  margin: 0;
-  background-repeat: no-repeat;
-  font-family: 'Marck Script', cursive;
-}
-
-.app {
+.container {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
-
-.button {
-  background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
-  background-color: transparent;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border: none;
-  width: 300px;
-  height: 238px;
-  cursor: pointer;
-  display: block;
-  margin-bottom: 20px;
-}
-
-.compliment-box {
-  position: absolute;
-  top: 64%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 260px;
-  height: auto;
-  color: black;
-  font-family: 'Marck Script', cursive;
-  font-size: 18px;
-  line-height: 140%;
-  text-align: center;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-footer {
-  margin: 0;
-  padding: 0;
-  height: 5vh;
   width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 20px;
-  background-color: #160b11;
-  background-image: linear-gradient(to bottom, #160b11 0%, #3d244c 100%);
+  height: 100vh;
+  overflow: hidden;
 }
 
-.button-container {
-  display: flex;
-  gap: 10px;
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.button_2 {
-  height: 5vh;
-  width: 150px;
-  min-height: 35px;
-  background-color: #201C42;
-  color: white;
+/* Кнопка — точно на коробочку */
+.clickable-box {
+  position: absolute;
+  top: 58%;       /* немного ниже центра */
+  left: 16.2%;    /* точная позиция коробки слева */
+  width: 17%;     /* ширина коробки */
+  height: 32%;    /* высота коробки */
+  background-color: transparent;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
-  font-size: 14px;
+}
+
+/* Текст — точно на белую карточку */
+.compliment-text {
+  position: absolute;
+  top: 52.5%;
+  left: 73%;
+  width: 22%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-family: 'Marck Script', cursive;
+  text-align: center;
+  color: black;
+  line-height: 1.4;
+  pointer-events: none;
 }
