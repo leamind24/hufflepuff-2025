@@ -1,49 +1,44 @@
-{
+* {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #f0eff4;
-  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #F0EFF4;
   font-family: 'Marck Script', cursive;
 }
 
-.container {
+.wrapper {
   position: relative;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.card {
-  background-image: url("https://i.postimg.cc/057rpC7d/image.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 300px;
-  height: 212px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  color: black;
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 20px;
+  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .box-button {
-  background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  position: absolute;
+  left: 13%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 300px;
-  height: 238px;
+  height: 300px;
+  background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.card-text {
+  position: absolute;
+  right: 13%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 200px;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
 }
