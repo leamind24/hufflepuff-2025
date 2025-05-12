@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f0eff4;
-  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png"); /* Фон — крайняя крышка */
+  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +23,7 @@ body {
 }
 
 .card {
-  background-image: url("https://i.postimg.cc/057rpC7d/image.png"); /* Белая карточка */
+  background-image: url("https://i.postimg.cc/057rpC7d/image.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 300px;
@@ -39,7 +39,7 @@ body {
 }
 
 .box-button {
-  background-image: url("https://i.postimg.cc/655wyVcQ/image.png"); /* Красная коробочка */
+  background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 300px;
