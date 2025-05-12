@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Комплименты для Пуффендуйцев</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Получить комплимент</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="app">
-    <div class="forecast">Нажми на коробочку, чтобы получить комплимент!</div>
-
-    <!-- Кнопка в виде картинки -->
-    <button class="button" id="get-compliment" aria-label="Получить комплимент"></button>
+    <button class="button" onclick="showCompliment()"></button>
+    <div class="forecast" id="compliment">Нажми на коробочку</div>
   </div>
 
   <footer>
     <div class="button-container">
       <a href="https://dhog.org/"><button class="button_2">В Хогвартс</button></a>
-      <a href="https://forms.gle/eQkc64p8tDQJ1JjX6"><button class="button_2">Оставить воспоминание</button></a>
+      <a href="https://forms.gle/eQkc64p8tDQJ1JjX6"><button class="button_2">Оставить воспоминания</button></a>
     </div>
   </footer>
 
-  <script src="scripts.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
