@@ -1,17 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const compliments = [
-    "Ты сияешь, как идеальный зельевар!",
-    "Твоя доброта греет лучше любого чарм-заклинания.",
-    "Ты бы точно прошёл в финал Тремудрого турнира — по доброте!",
-    "Улыбка у тебя лучше, чем у Колина Криви на первом курсе.",
-    "Если бы твой характер был ингредиентом, он бы исцелял раны."
-  ];
+const compliments = [
+  "Ты сияешь, как золотой снитч на солнце!",
+  "С тобой рядом — как в гостиной Хаффлпаффа: тепло, уютно и спокойно.",
+  "Ты вдохновляешь так же, как викарий в 'Песне ведьм'.",
+  "Если бы дружба преподавалась в Хогвартсе — ты бы вел(а) этот курс.",
+  "Ты создаёшь магию просто своим присутствием.",
+  "Ты как патронус в темноте — всегда придаешь сил.",
+  "Ты тот человек, с кем даже тролль стал бы добрее.",
+  "С тобой даже Северус Снейп бы улыбнулся."
+];
 
-  const button = document.getElementById("get-compliment");
-  const forecast = document.querySelector(".forecast");
-
-  button.addEventListener("click", () => {
-    const randomIndex = Math.floor(Math.random() * compliments.length);
-    forecast.textContent = compliments[randomIndex];
-  });
-});
+function showCompliment() {
+  const el = document.getElementById("compliment");
+  const random = Math.floor(Math.random() * compliments.length);
+  el.textContent = compliments[random];
+}
