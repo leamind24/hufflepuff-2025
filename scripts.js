@@ -1,10 +1,17 @@
-const compliments = [
-  'Пусть сладкое на кухне никогда не кончается',
-  'Пусть снитч летит на желтую мантию, а не наоборот',
-  'Для тебя у меня на диване в общей гостиной всегда есть свободное местечко',
-];
+document.addEventListener("DOMContentLoaded", function () {
+  const compliments = [
+    "Ты сияешь, как идеальный зельевар!",
+    "Твоя доброта греет лучше любого чарм-заклинания.",
+    "Ты бы точно прошёл в финал Тремудрого турнира — по доброте!",
+    "Улыбка у тебя лучше, чем у Колина Криви на первом курсе.",
+    "Если бы твой характер был ингредиентом, он бы исцелял раны."
+  ];
 
-function generateCompliment() {
-  const compliment = compliments[Math.floor(Math.random() * compliments.length)];
-  document.getElementById("compliment").textContent = compliment;
-}
+  const button = document.getElementById("get-compliment");
+  const forecast = document.querySelector(".forecast");
+
+  button.addEventListener("click", () => {
+    const randomIndex = Math.floor(Math.random() * compliments.length);
+    forecast.textContent = compliments[randomIndex];
+  });
+});
