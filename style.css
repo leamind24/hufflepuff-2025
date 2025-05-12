@@ -43,15 +43,24 @@ body {background-color:#F0EFF4;
 
 
 
-.button {background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
-	background-color: #12345600;
-	width: 73vw;
-	height: 59vw;
-	background-size: 73vw 59px;
-	border: none;
-	min-height: 70px;
-	transition: background 0.3s ease;
+.box-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  width: 373px;
+  height: auto;
 }
+
+.box-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 
 @media (min-width: 300px) {
 	.button {
