@@ -3,80 +3,47 @@
 }
 
 body {
-  background-color: #F0EFF4;
-  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png");
-  background-position: center center;
-  background-attachment: fixed;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  background-color: #f0eff4;
+  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png"); /* Фон — крайняя крышка */
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Marck Script', cursive;
 }
 
-.app {
+.container {
   position: relative;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
 }
 
-.button {
-  background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
-  background-color: transparent;
+.card {
+  background-image: url("https://i.postimg.cc/057rpC7d/image.png"); /* Белая карточка */
   background-size: contain;
   background-repeat: no-repeat;
-  border: none;
   width: 300px;
-  height: 238px;
-  cursor: pointer;
-  display: block;
+  height: 212px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding: 20px;
   margin-bottom: 20px;
 }
 
-.forecast {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 260px;
-  height: auto;
-  color: black;
-  font-family: 'Marck Script', cursive;
-  font-size: 18px;
-  line-height: 140%;
-  text-align: center;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-footer {
-  margin: 0;
-  padding: 0;
-  height: 5vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 20px;
-  background-color: #160b11;
-  background-image: linear-gradient(to bottom, #160b11 0%, #3d244c 100%);
-}
-
-.button-container {
-  display: flex;
-  gap: 10px;
-}
-
-.button_2 {
-  height: 5vh;
-  width: 150px;
-  min-height: 35px;
-  background-color: #201C42;
-  color: white;
+.box-button {
+  background-image: url("https://i.postimg.cc/655wyVcQ/image.png"); /* Красная коробочка */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 238px;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
-  font-size: 14px;
 }
