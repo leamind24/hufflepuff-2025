@@ -3,42 +3,80 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background-color: #F0EFF4;
+  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png");
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
   font-family: 'Marck Script', cursive;
 }
 
-.wrapper {
+.app {
   position: relative;
-  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png");
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
-.box-button {
-  position: absolute;
-  left: 13%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-  height: 300px;
+.button {
+  background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
   background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
   border: none;
+  width: 300px;
+  height: 238px;
   cursor: pointer;
+  display: block;
+  margin-bottom: 20px;
 }
 
-.card-text {
+.compliment-box {
   position: absolute;
-  right: 13%;
-  top: 50%;
-  transform: translate(50%, -50%);
-  width: 200px;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 260px;
+  height: auto;
   color: black;
+  font-family: 'Marck Script', cursive;
   font-size: 18px;
+  line-height: 140%;
   text-align: center;
-  line-height: 1.5;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+  background-color: #160b11;
+  background-image: linear-gradient(to bottom, #160b11 0%, #3d244c 100%);
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button_2 {
+  height: 5vh;
+  width: 150px;
+  min-height: 35px;
+  background-color: #201C42;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
 }
