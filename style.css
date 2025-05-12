@@ -4,12 +4,12 @@
 
 body {
   background-color: #F0EFF4;
-  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png"); /* фон */
+  background-image: url("https://i.postimg.cc/mgmPP2Cv/image.png");
   background-position: center center;
   background-attachment: fixed;
-  background-repeat: no-repeat;
   padding: 0;
   margin: 0;
+  background-repeat: no-repeat;
   font-family: 'Marck Script', cursive;
 }
 
@@ -23,38 +23,44 @@ body {
 }
 
 .button {
-  background-image: url("https://i.postimg.cc/655wyVcQ/image.png"); /* изображение коробки */
+  background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
-  width: 370px;
-  height: 438px;
+  width: 300px;
+  height: 238px;
   cursor: pointer;
   display: block;
   margin-bottom: 20px;
 }
 
-.compliment {
+.forecast {
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 260px;
-  padding: 10px;
+  height: auto;
   color: black;
+  font-family: 'Marck Script', cursive;
   font-size: 18px;
+  line-height: 140%;
   text-align: center;
   pointer-events: none;
+  transition: opacity 0.3s ease;
 }
 
 footer {
+  margin: 0;
+  padding: 0;
   height: 5vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 0 20px;
+  padding-right: 20px;
+  background-color: #160b11;
   background-image: linear-gradient(to bottom, #160b11 0%, #3d244c 100%);
 }
 
@@ -64,11 +70,13 @@ footer {
 }
 
 .button_2 {
+  height: 5vh;
+  width: 150px;
+  min-height: 35px;
   background-color: #201C42;
   color: white;
   border: none;
   border-radius: 5px;
-  font-size: 14px;
   cursor: pointer;
-  padding: 10px 20px;
+  font-size: 14px;
 }
