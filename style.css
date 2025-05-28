@@ -27,7 +27,7 @@ body {
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
-  transform: translateX(-60px);
+  transform: translateX(-80px);
   border: none;
   width: 373px;
   height: 459px;
@@ -38,13 +38,13 @@ body {
 .forecast {
   position: absolute;
   top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  right:40%; 
+  transform:translateY(-50%);
   width: 260px;
   height: auto;
   color: black;
   font-family: 'Marck Script', cursive;
-  font-size: 18px;
+  font-size: 28px;
   line-height: 140%;
   text-align: center;
   pointer-events: none;
