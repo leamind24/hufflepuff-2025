@@ -17,9 +17,9 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 200vh;
 }
 
 .button {
@@ -69,14 +69,6 @@ footer {
   gap: 10px;
 }
 
-.button_2 {
-  height: 5vh;
-  width: 150px;
-  min-height: 35px;
-  background-color: #201C42;
-  color: white;
-  border: none;
-  border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
 }
