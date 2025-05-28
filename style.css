@@ -15,11 +15,12 @@ body {
 
 .app {
   position: relative;
-  display: left;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  transform:translateX(-20vw);
 }
 
 .button {
