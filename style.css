@@ -15,7 +15,7 @@ body {
 
 .app {
   position: relative;
-  display: flex;
+  display: left;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -27,7 +27,7 @@ body {
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
-  transform: translateX(-20px);
+  transform: translateX(-40px);
   border: none;
   width: 368px;
   height: 450px;
