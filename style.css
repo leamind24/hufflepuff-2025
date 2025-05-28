@@ -27,10 +27,10 @@ body {
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
-  transform: translateX(-40px);
+  transform: translateX(-20px);
   border: none;
-  width: 373px;
-  height: 459px;
+  width: 368px;
+  height: 450px;
   cursor: pointer;
   display: block;
 }
