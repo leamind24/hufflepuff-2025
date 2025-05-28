@@ -40,7 +40,7 @@ body {
   position: absolute;
   top: 50%;
   right: 5%; 
-  transform:translateY(-50%);
+  transform:translateY(-60%);
   left:auto; 
   width: 260px;
   height: auto;
