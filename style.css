@@ -39,7 +39,7 @@ body {
 .compliment-box {
   position: absolute;
   top: 50%;
-  right: 10%; 
+  right: 20%; 
   transform:translateY(-50%);
   left:auto; 
   width: 260px;
