@@ -17,7 +17,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
@@ -27,7 +27,7 @@ body {
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
-  transform: translateX(-60px);
+  transform: translateX(-40px);
   border: none;
   width: 373px;
   height: 459px;
@@ -37,13 +37,15 @@ body {
 
 .forecast {
   position: absolute;
-  top: 25%;
-  right: 40%; 
+  top: 50%;
+  right: 5%; 
+  transform:translateY(-50%);
+  left:auto; 
   width: 260px;
   height: auto;
   color: black;
   font-family: 'Marck Script', cursive;
-  font-size: 48px;
+  font-size: 28px;
   line-height: 140%;
   text-align: center;
   pointer-events: none;
