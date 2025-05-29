@@ -53,15 +53,3 @@ body {
   transition: opacity 0.3s ease;
 }
 
-footer {
-  margin: 0;
-  padding: 0;
-  height: 5vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 20px;
-  background-color: #160b11;
-  background-image: linear-gradient(to bottom, #160b11 0%, #3d244c 100%);
-}
