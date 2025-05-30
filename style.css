@@ -4,7 +4,7 @@
 
 body {
   background-color: #F0EFF4;
-  background-image: url("https://i.postimg.cc/VN8gfpRW/image.png");
+  background-image: url("https://i.postimg.cc/CLLC4688/image.png");
   background-position: center center;
   background-attachment: fixed;
   padding: 0;
@@ -40,7 +40,6 @@ body {
   position: absolute;
   top: 50%;
   right: 5%; 
-  transform:translateY(-90%);
   left: auto; 
   width: 260px;
   height: auto;
