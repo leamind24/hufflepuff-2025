@@ -25,10 +25,10 @@ body {
 
 
 .button {
-  width: 469px;
-  height: 530px;
+  width: 461px;
+  height: 539px;
   background: transparent
-              url("https://i.postimg.cc/9fPMbQb1/image.png")
+              url("https://i.postimg.cc/4yxY2Hxs/1.png")
               center / 100% 100% no-repeat;
   border: none;
   cursor: pointer;
@@ -36,9 +36,9 @@ body {
 
 
 .compliment-box {
-  width: 469px;      
-  height: 530px;     
-  background: url("https://i.postimg.cc/B6wmV4QP/image.png") 
+  width: 461px;      
+  height: 539px;     
+  background: url("https://i.postimg.cc/wjymdNcB/3.png") 
               center / 100% 100% no-repeat; 
 
   display: flex; 
