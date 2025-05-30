@@ -14,33 +14,34 @@ body {
   font: 28px/1.4 'Marck Script', cursive;
 }
 
+
 .app {
-  flex: 1;               
-  display: flex;             
-  justify-content: center;     
-  align-items: center;        
-  gap: 6vw;                    
+  flex: 1;                        
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6vw;                     
 }
 
+
 .button {
-  width: 368px;             
+  width: 368px;
   height: 450px;
   border: none;
   cursor: pointer;
-  background: transparent
-              url("https://i.postimg.cc/9fPMbQb1/image.png")
+  background: transparent url("https://i.postimg.cc/9fPMbQb1/image.png")
               center/contain no-repeat;
 }
 
+
 .compliment-box {
-  width: 469px;                
+  width: 260px;
   padding: 40px 25px;
+  background: url("https://i.postimg.cc/B6wmV4QP/image.png")
+              center/contain no-repeat;
   text-align: center;
   color: #000;
   pointer-events: none;
-
-  background: url("https://i.postimg.cc/B6wmV4QP/image.png")
-              center/contain no-repeat;
 
   opacity: 0;                 
   transition: opacity .3s ease;
