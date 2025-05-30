@@ -1,56 +1,91 @@
-* { box-sizing: border-box; }
+*{box-sizing:border-box;}
+html,body{height:100%}
+body{
+  margin:0;
+  display:flex;           
+  flex-direction:column;
+  min-height:100vh;
+  overflow-x:hidden;
 
-html, body { height: 100%; }
+  background:#F0EFF4 url("https://i.postimg.cc/MH2syx67/image.png") center/cover fixed;
+  font:28px/1.4 'Marck Script',cursive;
+}
 
-body {
-  margin: 0;
-  display: flex;               
-  flex-direction: column;
-  min-height: 100vh;
-  overflow-x: hidden;
-
-  background: #F0EFF4 url("https://i.postimg.cc/MH2syx67/image.png")
-              center/cover fixed;
-  font: 28px/1.4 'Marck Script', cursive;
+.app{
+  flex:1;                   
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:6vw;           
 }
 
 
-.app {
-  flex: 1;                        
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 6vw;                     
+.button{
+  width:461px;           
+  height:539px;
+  border:none;
+  cursor:pointer;
+  background:transparent
+             url("https://i.postimg.cc/4yxY2Hxs/1.png")
+             center/100% 100% no-repeat;
 }
 
 
-.button {
-  width: 461px;
-  height: 539px;
-  background: transparent
-              url("https://i.postimg.cc/4yxY2Hxs/1.png")
-              center / 100% 100% no-repeat;
-  border: none;
-  cursor: pointer;
+.compliment-box{
+  width:461px;
+  height:530px;
+  background:url("https://i.postimg.cc/wjymdNcB/3.png")
+            center/100% 100% no-repeat;
+
+  padding:20px 30px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+
+  overflow:hidden;         
+  word-break:break-word;
+
+  font:28px/1.4 'Marck Script',cursive;
+  color:#000;
+  pointer-events:none;
+
+  opacity:0;              
+  transition:opacity .3s ease;
+}
+.compliment-box.show{opacity:1}
+
+@media(max-width:480px){
+  .app{
+    flex-direction:column;  
+    gap:5vw;
+  }
+
+  .button,
+  .compliment-box{
+    width:80vw;             
+    height:auto;               
+    aspect-ratio:461/530;
+    max-width:none;         
+    background-size:100% 100%;
+  }
+
+  .compliment-box{
+    font-size:5vw;        
+    padding:7vw 5vw;
+  }
 }
 
 
-.compliment-box {
-  width: 461px;      
-  height: 539px;     
-  background: url("https://i.postimg.cc/wjymdNcB/3.png") 
-              center / 100% 100% no-repeat; 
+@media(min-width:1200px){
+  .button,
+  .compliment-box{
+    width:380px;              
+    height:calc(380px*530/461);
+  }
 
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 40px 25px; 
-  font: 28px/1.4 'Marck Script', cursive;
-  color: #000;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity .3s ease;
+  .compliment-box{
+    font-size:28px;
+    padding:40px 25px;
+  }
 }
-.compliment-box.show { opacity: 1; }
-
