@@ -1,56 +1,49 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
 
 body {
-  background-color: #F0EFF4;
-  background-image: url("https://i.postimg.cc/VN8gfpRW/image.png");
-  background-position: center center;
-  background-attachment: fixed;
-  padding: 0;
   margin: 0;
-  background-repeat: no-repeat;
-  font-family: 'Marck Script', cursive;
+  display: flex;               
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  background: #F0EFF4 url("https://i.postimg.cc/VN8gfpRW/image.png")
+              center/cover fixed;
+  font: 28px/1.4 'Marck Script', cursive;
 }
 
 .app {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  transform:translateX(0vw);
+  flex: 1;               
+  display: flex;             
+  justify-content: center;     
+  align-items: center;        
+  gap: 6vw;                    
 }
 
 .button {
-  background-image: url("https://i.postimg.cc/9fPMbQb1/image.png");
-  background-color: transparent;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transform: translateX(-40px);
-  border: none;
-  width: 368px;
+  width: 368px;             
   height: 450px;
+  border: none;
   cursor: pointer;
-  display: block;
+  background: transparent
+              url("https://i.postimg.cc/9fPMbQb1/image.png")
+              center/contain no-repeat;
 }
 
 .compliment-box {
-  position: absolute;
-  top: 50%;
-  right: 50%; 
- transform: translate(-50%, -50%) translateX(-20vw);
-  left: auto; 
-  max-width: 260px;
+  width: 469px;                
   padding: 40px 25px;
-  background: url("https://i.postimg.cc/B6wmV4QP/image.png") center/contain no-repeat;
-  height: auto;
-  color: black;
-  font-family: 'Marck Script', cursive;
-  font-size: 28px;
-  line-height: 140%;
   text-align: center;
+  color: #000;
   pointer-events: none;
-  transition: opacity 0.3s ease;
+
+  background: url("https://i.postimg.cc/B6wmV4QP/image.png")
+              center/contain no-repeat;
+
+  opacity: 0;                 
+  transition: opacity .3s ease;
 }
+.compliment-box.show { opacity: 1; }
+
