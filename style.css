@@ -24,7 +24,7 @@ body {
 }
 
 .button {
-  background-image: url("https://i.postimg.cc/655wyVcQ/image.png");
+  background-image: url("https://i.postimg.cc/9fPMbQb1/image.png");
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
@@ -39,10 +39,12 @@ body {
 .compliment-box {
   position: absolute;
   top: 50%;
-  right: 5%; 
-  transform:translateY(-90%);
+  right: 50%; 
+ transform: translate(-50%, -50%) translateX(-20vw);
   left: auto; 
-  width: 260px;
+  max-width: 260px;
+  padding: 40px 25px;
+  background: url("https://i.postimg.cc/B6wmV4QP/image.png") center/contain no-repeat;
   height: auto;
   color: black;
   font-family: 'Marck Script', cursive;
