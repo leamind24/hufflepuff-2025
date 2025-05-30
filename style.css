@@ -35,15 +35,20 @@ body {
 
 
 .compliment-box {
-  width: 260px;
-  padding: 40px 25px;
-  background: url("https://i.postimg.cc/B6wmV4QP/image.png")
-              center/contain no-repeat;
+  width: 469px;      
+  height: 530px;     
+  background: url("https://i.postimg.cc/B6wmV4QP/image.png") 
+              center / 100% 100% no-repeat; 
+
+  display: flex; 
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  padding: 40px 25px; 
+  font: 28px/1.4 'Marck Script', cursive;
   color: #000;
   pointer-events: none;
-
-  opacity: 0;                 
+  opacity: 0;
   transition: opacity .3s ease;
 }
 .compliment-box.show { opacity: 1; }
