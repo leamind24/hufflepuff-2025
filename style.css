@@ -4,7 +4,7 @@
 
 body {
   background-color: #F0EFF4;
-  background-image: url("https://i.postimg.cc/CLLC4688/image.png");
+  background-image: url("https://i.postimg.cc/VN8gfpRW/image.png");
   background-position: center center;
   background-attachment: fixed;
   padding: 0;
@@ -30,24 +30,25 @@ body {
   background-repeat: no-repeat;
   transform: translateX(-40px);
   border: none;
-  width: 154px;
-  height: 225px;
+  width: 368px;
+  height: 450px;
   cursor: pointer;
   display: block;
 }
 
-compliment-box {
+.compliment-box {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) translateY(15vh);
+  right: 5%; 
+  transform:translateY(-90%);
+  left: auto; 
   width: 260px;
-  color: #000;
+  height: auto;
+  color: black;
   font-family: 'Marck Script', cursive;
   font-size: 28px;
-  line-height: 1.4;
+  line-height: 140%;
   text-align: center;
   pointer-events: none;
   transition: opacity 0.3s ease;
 }
-
