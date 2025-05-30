@@ -36,17 +36,16 @@ body {
   display: block;
 }
 
-.compliment-box {
+compliment-box {
   position: absolute;
   top: 50%;
-  right: 5%; 
-  left: auto; 
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(15vh);
   width: 260px;
-  height: auto;
-  color: black;
+  color: #000;
   font-family: 'Marck Script', cursive;
   font-size: 28px;
-  line-height: 140%;
+  line-height: 1.4;
   text-align: center;
   pointer-events: none;
   transition: opacity 0.3s ease;
