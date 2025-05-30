@@ -25,12 +25,13 @@ body {
 
 
 .button {
-  width: 368px;
-  height: 450px;
+  width: 469px;
+  height: 530px;
+  background: transparent
+              url("https://i.postimg.cc/9fPMbQb1/image.png")
+              center / 100% 100% no-repeat;
   border: none;
   cursor: pointer;
-  background: transparent url("https://i.postimg.cc/9fPMbQb1/image.png")
-              center/contain no-repeat;
 }
 
 
